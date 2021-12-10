@@ -101,7 +101,7 @@ print(kendalltau)
 
 cholesky=scipy.linalg.cholesky(kendalltau,lower=True)
 print(cholesky)
-#-----------------------------------------------------------------------------------------------------------
+#--Gaussian Copula Branch Starts---------------------------------------------------------------------------------------------------------
 
 random_numbers=[[]]*5
 corr_random_numbers=[[]]*5
